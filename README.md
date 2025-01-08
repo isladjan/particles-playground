@@ -7,7 +7,7 @@ A WebGL project driven by particles, built with Three.js and GSAP. The particles
 
 Custom shaders handle particle behavior, transforming images into interactive displays. It supports dynamic effects like texture transitions, mouse and touch interactions, and a flowing "tail" effect for interaction with particles. Performance is optimized with FPS limiting and throttled events.
 
-This project utilizes GLSL 2D simplex noise within the shaders, originally developed by [Ian McEwan](https://github.com/ashima/webgl-noise/blob/master/src/noise2D.glsl). Part of the vertex shader is also inspired by examples from Shadertoy, but since this is an updated version of my years-old project, the original reference has been lost.
+This project utilizes GLSL 2D simplex noise within the shaders, originally developed by [Ian McEwan](https://github.com/ashima/webgl-noise/blob/master/src/noise2D.glsl). This project is inspired by [Bruno Imbrizi's Interactive Particles](https://github.com/brunoimbrizi/interactive-particles).
 
 For a more in-depth demo - check out my full Live Online example @ https://isladjan.com/work/3/quotes/
 
