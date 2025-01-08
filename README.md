@@ -2,8 +2,8 @@
 
 A WebGL project driven by particles, built with Three.js and GSAP. The particles are constructed using custom shaders and utilize image textures as the base for coloring and rendering their appearance.
 
-![preview1  from full project](https://github.com/user-attachments/assets/e8ce71d6-d3c9-41e2-bfb6-56b19ad344a8)
-![preview2  from full project](https://github.com/user-attachments/assets/b40ad802-fd3b-414c-a3a2-3c0bb7dc3cb5)
+![Demo 1](https://github.com/user-attachments/assets/8adcc20f-205a-43e4-bd06-79a88d9db6d0)
+![Demo 2](https://github.com/user-attachments/assets/20772a8e-5572-452d-a39e-481976484d97)
 
 Custom shaders handle particle behavior, transforming images into interactive displays. It supports dynamic effects like texture transitions, mouse and touch interactions, and a flowing "tail" effect for interaction with particles. Performance is optimized with FPS limiting and throttled events.
 

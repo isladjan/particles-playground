@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'departure-mono';
-  src: url('fonts/departureMono-Regular.woff2') format('woff2');
+  src: url('/fonts/departureMono-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: fallback;
@@ -207,9 +207,7 @@ body {
       transform: translate(-50%, -50%);
       color: rgb(255, 255, 255);
       background-color: rgba(22, 22, 22, 0.81);
-      background-image: url("../assets/img/c/pattern.svg");
-      background-size: 32px;
-      border-bottom: 1px solid rgba(78, 78, 78, 0.445);
+      border: 1px solid rgba(78, 78, 78, 0.445);
 
       span {
           color: #e7aa27;
@@ -245,11 +243,7 @@ body {
   width: 350px;
   height: 90px;
   background-color: rgba(70, 70, 70, 0.445);
-  background-image: url("../assets/img/c/pattern.svg");
-  background-size: 32px;
-  background-blend-mode: screen;
   contain: paint size layout;
-  will-change: background-position;
   border: 1px solid rgba(78, 78, 78, 0.445);
   transform-origin: 0% 50%;
   scale: 0.8;
